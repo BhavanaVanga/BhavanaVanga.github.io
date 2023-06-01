@@ -1,20 +1,20 @@
 h1{
-  color: rgb(255, 0, 0);
+  color: rgb(94, 84, 84);
 }
 .heading {
 	text-align: center;
   }
  
 h2{
-    color: rgb(0, 255, 85);
+    color: rgb(195, 0, 255);
 }
 table, th, td {
   border: 1px solid;
 }
 th{
     padding: 20px;
-    color: rgb(255, 0, 17);
-    background-color: rgb(80, 141, 152);
+    color: rgb(242, 237, 237);
+    background-color: rgb(38, 206, 236);
   }
   td{
     padding:20px;
