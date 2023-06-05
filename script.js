@@ -13,5 +13,5 @@ var changeMyPic=function(){
         displaydata=data1;
         isdata1=true;
     }
-    document.getElementById()
+    document.getElementById("myimage").src=displaydata.image;
 }
