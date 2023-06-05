@@ -11,6 +11,6 @@ var changeMyPic=function(){
     else
     {
         displaydata=data1;
-        isdata2=false;
+        isdata1=true;
     }
 }
