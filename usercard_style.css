@@ -27,3 +27,8 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+.toggle
+{
+  background-color: grey;
+  color: burlywood;
+}
