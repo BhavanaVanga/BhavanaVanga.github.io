@@ -43,9 +43,9 @@
             var data=await response.json();
             console.log(data);
             document.querySelection(".city").innerHTML=data.name;
-            document.querySelection(".temp").innerHTML=data.main.temp;
-            document.querySelection(".humidity").innerHTML=data.main.humidity;
-            document.querySelection(".wind").innerHTML=data.wind.speed;
+            document.querySelection(".temp").innerHTML=data.main.temp+"°C";
+            document.querySelection(".humidity").innerHTML=data.main.humidity+ "%";
+            document.querySelection(".wind").innerHTML=data.wind.speed+ " km/hr";
 
         }
         checkweather();
